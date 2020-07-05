@@ -1,10 +1,25 @@
-nums = [-2,1,-3,4,-1,2,1,-5,4]
+def quick_sort(nums):
+    n = len(nums)
 
-golbal_max, local_max = 0,0
+    def quick(left, right):
+        if left >= right:
+            return nums
+        pivot = right
+        i = left
+        j = right
+        while i < j:
+            while i < j and nums[j] > nums[pivot]:
+                j -= 1
+            while i < j and nums[i] <= nums[pivot]:
+                i += 1
+            nums[i], nums[j] = nums[j], nums[i]
+        nums[pivot], nums[j] = nums[j], nums[pivot]
+        quick(left, j - 1)
+        quick(j + 1, right)
+        return nums
 
-if max(nums) < 0:
-    golbal_max = max(nums)
-else:
-    for num in nums:
-        local_max = max(0, local_max + num)
-        golbal_max = max (golbal_max, local_max)
+    return quick(0, n - 1)
+
+a = [10,23,51,18,4,31,5,13]
+
+quick_sort(a)
