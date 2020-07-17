@@ -1,6 +1,6 @@
 # Python Basics
  
-This are some python notes along with my python studying. The typesetting is very clear and consice, I would like to share it with you to help you understanding Python as quick as possible.
+These are some python notes along with my python studying. The typesetting is very clear and consice, I would like to share it with you to help you understanding Python as quick as possible.
 
 Special thanks:  
 ***Prof. Rong Liu***  Stevens Institute of Technology  
