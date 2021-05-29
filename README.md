@@ -8,7 +8,7 @@ Special thanks:
 
 --
 ### Declaration:
-The code and text mainly from myself while some may from other course authors, please let me know if you need remove your part,I am truely appriciate and treausure your contribution to this community.
+The code and text mainly from myself while some may referencing(<10%) other course authors, please let me know if you need remove your part, I am truely appriciate and treausure your contribution to this community.
 
 ###### Shan Jiang
 ---
